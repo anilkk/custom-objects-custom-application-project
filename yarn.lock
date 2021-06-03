@@ -1099,7 +1099,7 @@
     lodash "4.17.21"
     redux-thunk "2.3.0"
 
-"@commercetools-frontend/application-components@20.3.1":
+"@commercetools-frontend/application-components@20.3.1", "@commercetools-frontend/application-components@^20.3.1":
   version "20.3.1"
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-components/-/application-components-20.3.1.tgz#14da453b1531a27feb25d7c7e0d406e71f6e161a"
   integrity sha512-McwSTXWzojR5qeS9AAFJgfYKlhLa0OeXY5OkDwdsUlWtUYj7GMSEc128esRT2qDZ5L2sLbTivQbqEfAh30xoVg==

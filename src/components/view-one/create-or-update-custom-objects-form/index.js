@@ -1,0 +1,1 @@
+export { default } from './create-or-update-custom-objects-form';

@@ -18,7 +18,7 @@
   "dependencies": {
     "@apollo/client": "^3.3.19",
     "@commercetools-frontend/actions-global": "20.3.1",
-    "@commercetools-frontend/application-components": "20.3.1",
+    "@commercetools-frontend/application-components": "^20.3.1",
     "@commercetools-frontend/application-shell": "20.3.1",
     "@commercetools-frontend/assets": "18.5.4",
     "@commercetools-frontend/constants": "^20.3.0",
