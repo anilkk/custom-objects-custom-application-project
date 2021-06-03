@@ -1,6 +1,6 @@
 {
-  "name": "Custom Application Template Starter",
-  "entryPointUriPath": "examples-starter",
+  "name": "Custom Objects Custom Application",
+  "entryPointUriPath": "custom-objects",
   "cloudIdentifier": "gcp-eu",
   "env": {
     "production": {
