@@ -37,7 +37,8 @@ const CreateOrUpdateCustomObjectsForm = ({ container }) => {
         if (key.length > 0 && value.length > 0) {
             createOrUpdateCustomObject();
         }
-    }
+        setIsFormOpen(false);
+    };
 
     return (
         <Constraints.Horizontal max={4}> 

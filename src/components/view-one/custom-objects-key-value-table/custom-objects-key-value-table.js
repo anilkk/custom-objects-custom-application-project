@@ -29,6 +29,6 @@ const CustomObjectsKeyValueTable = ({ container }) => {
     
     if (loading) return (<LoadingSpinner size="m">Loading</LoadingSpinner>);
     if (error) return (<ErrorMessage>{intl.formatMessage(messages.errorMessage)}</ErrorMessage>);
-    return (<DataTable rows={rows} columns={columns} />);
+    return (<DataTable rows={rows} columns={columns} />);    
 }
 export default CustomObjectsKeyValueTable;

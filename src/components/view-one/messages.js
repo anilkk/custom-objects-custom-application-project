@@ -1,9 +1,14 @@
 import { defineMessages } from 'react-intl';
 
 export default defineMessages({
-  title: {
-    id: 'ViewOne.title',
-    description: 'The page title of view one',
-    defaultMessage: 'View one',
+  addContainerMessage: {
+    id: 'ViewOne.addContainerMessage',
+    description: 'Message to show when no container is chosen',
+    defaultMessage: 'Please add container to view Custom Objects',
   },
+  selectedContainerMessage: {
+    id: 'ViewOne.selectedContainerMessage',
+    description: 'Message to show chosen container',
+    defaultMessage: 'Current selected container is',
+  }
 });
