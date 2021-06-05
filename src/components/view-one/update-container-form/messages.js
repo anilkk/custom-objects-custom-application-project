@@ -6,13 +6,13 @@ export default defineMessages({
         description: 'The page title of view two',
         defaultMessage: 'Container',
     },
-    FormTitle: {
-        id: 'UpdateContainerForm.FormTitle',
+    formTitle: {
+        id: 'UpdateContainerForm.formTitle',
         description: 'Add or update Custom Object container',
         defaultMessage: 'Add or update Custom Object container',
     },
-    AddContainerNameButtonLabel: {
-        id: 'UpdateContainerForm.AddContainerNameButtonLabel',
+    addContainerNameButtonLabel: {
+        id: 'UpdateContainerForm.addContainerNameButtonLabel',
         description: 'Add container name button label',
         defaultMessage: 'Add container name',
     },
