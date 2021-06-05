@@ -1,23 +1,23 @@
 import { defineMessages } from 'react-intl';
 
 export default defineMessages({
-    KeyInputLabel: {
-        id: 'CreateOrUpdateCustomObjectsForm.KeyInputLabel',
+    keyInputLabel: {
+        id: 'CreateOrUpdateCustomObjectsForm.keyInputLabel',
         description: 'Create or update Custom objects form key label',
         defaultMessage: 'Key',
     },
-    ValueInputLabel: {
-        id: 'CreateOrUpdateCustomObjectsForm.ValueInputLabel',
+    valueInputLabel: {
+        id: 'CreateOrUpdateCustomObjectsForm.valueInputLabel',
         description: 'Create or update Custom objects form value label',
         defaultMessage: 'Value',
     },
-    OpenFormButtonLabel: {
-        id: 'CreateOrUpdateCustomObjectsForm.OpenFormButtonLabel',
+    openFormButtonLabel: {
+        id: 'CreateOrUpdateCustomObjectsForm.openFormButtonLabel',
         description: 'Open Create or Update Custom Object form button label',
-        defaultMessage: 'Create or Update Custom Object',
+        defaultMessage: 'Create or update Custom Object',
     },
-    FormTitle: {
-        id: "CreateOrUpdateCustomObjectsForm.FormTitle",
+    formTitle: {
+        id: "CreateOrUpdateCustomObjectsForm.formTitle",
         description: "Create or update Custom objects form title",
         defaultMessage: "Create or update Custom Object"
     }

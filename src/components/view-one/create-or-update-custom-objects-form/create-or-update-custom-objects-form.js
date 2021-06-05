@@ -13,6 +13,13 @@ import { GRAPHQL_TARGETS } from '@commercetools-frontend/constants';
 import { useIntl } from 'react-intl';
 import messages from './messages';
 
+const {
+    keyInputLabel,
+    valueInputLabel,
+    formTitle,
+    openFormButtonLabel
+} = messages;
+
 const target = GRAPHQL_TARGETS.COMMERCETOOLS_PLATFORM;
 
 const CreateOrUpdateCustomObjectsForm = ({ container }) => {
@@ -32,7 +39,8 @@ const CreateOrUpdateCustomObjectsForm = ({ container }) => {
         }
     });
 
-    const handleCloseForm = () => {setIsFormOpen(false)};
+    const handleOpenForm = () => setIsFormOpen(true);
+    const handleCloseForm = () => setIsFormOpen(false);
     const handleCreateOrUpdateCustomObject = () => {
         if (key.length > 0 && value.length > 0) {
             createOrUpdateCustomObject();
@@ -43,13 +51,13 @@ const CreateOrUpdateCustomObjectsForm = ({ container }) => {
     return (
         <Constraints.Horizontal max={4}> 
             <PrimaryButton
-                label={intl.formatMessage(messages.OpenFormButtonLabel)}
-                onClick={() => {setIsFormOpen(true)}}
+                label={intl.formatMessage(openFormButtonLabel)}
+                onClick={handleOpenForm}
                 isDisabled={!container}
                 horizontalConstraint={4}
             />
             <FormDialog
-                title={intl.formatMessage(messages.FormTitle)}
+                title={intl.formatMessage(formTitle)}
                 isOpen={isFormOpen}
                 onClose={handleCloseForm}
                 onSecondaryButtonClick={handleCloseForm}
@@ -57,7 +65,7 @@ const CreateOrUpdateCustomObjectsForm = ({ container }) => {
             >
                 <Spacings.Stack scale="m">
                     <FieldLabel
-                        title={intl.formatMessage(messages.KeyInputLabel)}
+                        title={intl.formatMessage(keyInputLabel)}
                         hasRequiredIndicator={true}
                         htmlFor="createOrUpdateCustomObjectKey"
                         horizontalConstraint={7}
@@ -66,7 +74,7 @@ const CreateOrUpdateCustomObjectsForm = ({ container }) => {
                         setKey(event.target.value)
                     }} />
                     <FieldLabel
-                        title={intl.formatMessage(messages.ValueInputLabel)}
+                        title={intl.formatMessage(valueInputLabel)}
                         hasRequiredIndicator={true}
                         htmlFor="createOrUpdateCustomObjectValue"
                         horizontalConstraint={7}
