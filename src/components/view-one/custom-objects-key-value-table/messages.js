@@ -11,8 +11,13 @@ export default defineMessages({
         description: 'Custom Object value label',
         defaultMessage: 'Value',
     },
+    loadingMessage: {
+        id: 'CustomObjectsKeyValueTable.loadingMessage',
+        description: 'Loading message still waiting for the server response',
+        defaultMessage: 'Loading',
+    },
     errorMessage: {
-        id: 'CustomObjectsKeyValueTable.ErrorMessage',
+        id: 'CustomObjectsKeyValueTable.errorMessage',
         description: 'Something went wrong fetching Custom Object data',
         defaultMessage: 'Something went wrong',
     }
